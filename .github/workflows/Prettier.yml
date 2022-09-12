@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: bahmutov/npm-install@v1
+      - uses: bahmutov/npm-install@v1.8.22
 
       - run: npm run format
       - run: git status
